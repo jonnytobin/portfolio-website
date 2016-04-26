@@ -18,8 +18,20 @@ a {
 
 h1 {
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     margin: 0;
+    color: #7F7D6B;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+    margin: 0;
+    color: #FFFBD6;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
@@ -38,4 +50,14 @@ h2 {
 img {
     width: 100%;
     height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFFBD6;
+    text-shadow: 0px 0px 7px #7F7D6B;
 }
