@@ -9,11 +9,13 @@ a {
 .background1 {
     background-color: #BFBC80;
     padding: 25px;
+    box-shadow: 0px 10px 5px #888888;
 }
 
 .background2 {
     background-color: #E5E2C1;
     padding: 25px;
+    padding-bottom: 0;
 }
 
 h1 {
@@ -60,4 +62,29 @@ a:hover {
     text-decoration: none;
     color: #FFFBD6;
     text-shadow: 0px 0px 7px #7F7D6B;
+}
+
+a:active {
+    text-decoration: none;
+    color: #FFFBD6;
+    text-shadow: 0px 0px 7px #7F7D6B;
+}
+
+.background3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #BFBC80;
+}
+
+h3 {
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    color: #7F7D6B;
+}
+
+.background4 {
+    background-color: #E5E2C1;
+    padding: 25px;
 }
