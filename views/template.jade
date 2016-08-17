@@ -14,12 +14,11 @@ block content
     
         
   .row.background2
-    .col-md-4 
-        img(src="images/project_placeholder.jpg")
-    .col-md-4 
-        img(src="images/project_placeholder.jpg")
-    .col-md-4 
-        img(src="images/project_placeholder.jpg")
+    .col-md-12 
+        form(action='/file/upload', method='POST', enctype='multipart/form-data')
+            input(type='file', name='theFile')
+            input(type='submit', value='Upload')
+    
         
   .row.background2
     .col-md-4 
