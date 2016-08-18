@@ -25,11 +25,8 @@ router.post('/template', function (req, res, next) {
 router.post('/upload', function(req, res, next) {
   // req.files contains all the information about the files that
   // have been uploaded, lets print it out and see what is in it
-  if (req.query.username == "John") {
-      console.log("Hi John");
-  }
   console.log(req.files);
-  res.render('files/confirmUpload', {uploadedFile: req.files[0].originalname});
+  res.render('file_uploaded', {uploadedFile: req.files[0].originalname});
 });
 
 module.exports = router;
