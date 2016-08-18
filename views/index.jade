@@ -8,6 +8,7 @@ block content
         .col-md-6
             // When the submit button is pressed, load the template page
             form.form-inline(action="/template", method="post")
+                p Sign in here to upload content:
                 .form-group
                     label.sr-only(for='exampleInputName2') Name
                     input#exampleInputName2.form-control.spacer(type='text', name="Name", placeholder='Name')
@@ -19,5 +20,27 @@ block content
                     input.spacer(type='checkbox')
                     |  Remember me
                 button.btn.btn-default.spacer(type='submit') Sign in
+    
+    .row.background2
+        .col-md-4 
+            img(src="images/project_placeholder.jpg")
+        .col-md-4 
+            img(src="images/project_placeholder.jpg")
+        .col-md-4 
+            img(src="images/project_placeholder.jpg")
+    
+    .row.background4
+        .col-md-4 
+            img(src="images/project_placeholder.jpg")
+        .col-md-4 
+            img(src="images/project_placeholder.jpg")
+        .col-md-4 
+            img(src="images/project_placeholder.jpg")
+    
+    .row.background3
+        .col-md-4.center
+        .col-md-4.center
+            h3 &copy Jonathan Tobin 2016
+        .col-md-4.center
 
         

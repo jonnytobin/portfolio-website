@@ -1,8 +1,5 @@
 doctype html
-html
-  head
-    title File upload form
-  body
+extends layout
     form(action='/file/upload', method='POST', enctype='multipart/form-data')
       input(type='file', name='theFile')
       input(type='submit', value='Upload')
