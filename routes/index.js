@@ -26,7 +26,7 @@ router.post('/upload', function(req, res, next) {
   // req.files contains all the information about the files that
   // have been uploaded, lets print it out and see what is in it
   console.log(req.files);
-  res.render('file_uploaded', {uploadedFile: req.files[0].originalname});
+  res.render('/files/file_uploaded', {uploadedFile: req.files[0].originalname});
 });
 
 module.exports = router;
